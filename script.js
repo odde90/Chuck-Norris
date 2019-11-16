@@ -3,7 +3,7 @@ const ChuckText = document.getElementById("ChuckText");
 const synth = window.speechSynthesis;
 
 joke.addEventListener("click", async () => {
-  const utl = "https://api.chucknorris.io/jokes/random";
+  const url = "https://api.chucknorris.io/jokes/random";
 
   const res = await fetch(url);
   const data = await res.json();

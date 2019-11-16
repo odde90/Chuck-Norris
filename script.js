@@ -1,9 +1,15 @@
-const button = $(".trigger");
-var synth = window.speechSynthesis;
-button.click(function() {
-  $.get("https://api.chucknorris.io/jokes/random", function(data) {
-    console.log("response : ", data);
-    var utterThis = new SpeechSynthesisUtterance(data.value);
-    synth.speak(utterThis);
-  });
+const joke = document.getElementById("joke");
+const ChuckText = document.getElementById("ChuckText");
+const synth = window.speechSynthesis;
+
+joke.addEventListener("click", async () => {
+  const utl = "https://api.chucknorris.io/jokes/random";
+
+  const res = await fetch(url);
+  const data = await res.json();
+
+  const utterThis = new SpeechSynthesisUtterance(data.value);
+  synth.speak(utterThis);
+
+  ChuckText.innerHTML = data.value;
 });

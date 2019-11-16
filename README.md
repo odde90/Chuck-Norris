@@ -7,7 +7,6 @@ Funny joke generator api with mozilla SpeechSynthesis speak api
 ```
 https://api.chucknorris.io/
 https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis/speak
-https://jquery.com/
 ```
 
 ## the Project link

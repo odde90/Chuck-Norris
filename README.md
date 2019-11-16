@@ -4,7 +4,7 @@ Funny joke generator api with mozilla SpeechSynthesis speak api
 
 ## Sources i have used
 
-```python
+```
 https://api.chucknorris.io/
 https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis/speak
 https://jquery.com/

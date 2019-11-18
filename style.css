@@ -1,18 +1,23 @@
 body {
-  font-family: sans-serif;
+  background-color: #444;
+  margin: 0;
 }
-
-.container {
-  padding: 40px;
-  max-width: 800px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.wrapper {
+  margin: 0;
 }
-
-#Norris {
-  height: 120px;
-  width: 120px;
+.leftcolumn {
+  float: left;
+  width: 75%;
+  overflow: hidden;
+}
+.rightcolumn {
+  float: right;
+  width: 25%;
+  overflow: hidden;
+}
+#Norris,
+#daily {
+  height: 320px;
+  width: 320px;
   margin-bottom: 40px;
 }

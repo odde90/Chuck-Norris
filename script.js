@@ -13,3 +13,14 @@ joke.addEventListener("click", async () => {
 
   ChuckText.innerHTML = data.value;
 });
+Quote.addEventListener("click", async () => {
+  const url = "https://quote-garden.herokuapp.com/quotes/random";
+  try {
+    const res = await fetch(url);
+    const data = await res.json();
+
+    QuoteText.innerHTML = data.quoteText;
+  } catch (e) {
+    console.log(e);
+  }
+});

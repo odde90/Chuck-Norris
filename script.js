@@ -19,6 +19,9 @@ Quote.addEventListener("click", async () => {
     const res = await fetch(url);
     const data = await res.json();
 
+    const utterThis = new SpeechSynthesisUtterance(data.quoteText);
+    synth.speak(utterThis);
+
     QuoteText.innerHTML = data.quoteText;
   } catch (e) {
     console.log(e);

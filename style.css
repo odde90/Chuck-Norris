@@ -4,20 +4,46 @@ body {
 }
 .wrapper {
   margin: 0;
+  text-align: center;
 }
 .leftcolumn {
   float: left;
-  width: 75%;
+  width: 50%;
   overflow: hidden;
+  color: aqua;
+  background-color: brown;
+  height: 648px;
 }
 .rightcolumn {
   float: right;
-  width: 25%;
+  width: 50%;
   overflow: hidden;
+  background-color: purple;
+  height: 648px;
 }
-#Norris,
 #daily {
   height: 320px;
   width: 320px;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
+  display: inline-flex;
+  /* margin: 140px; */
+}
+#Norris {
+  height: 320px;
+  width: 320px;
+  /* margin-bottom: 40px; */
+  display: inline-flex;
+  /* margin: 140px; */
+}
+p {
+  text-align: center;
+  /* line-height: 100px; */
+}
+#joke {
+  display: table;
+  margin: 0 auto;
+}
+#daily {
+  display: table;
+  margin: 0 auto;
 }

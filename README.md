@@ -7,7 +7,9 @@ Funny joke generator api with mozilla SpeechSynthesis speak api
 ```
 https://api.chucknorris.io/
 https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis/speak
+https://quote-garden.herokuapp.com/quotes/
 ```
 
 ## the Project link
 https://odde90.github.io/Chuck-Norris/.
+https://quote-garden.herokuapp.com/quotes/

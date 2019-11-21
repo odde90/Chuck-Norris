@@ -12,4 +12,3 @@ https://quote-garden.herokuapp.com/quotes/
 
 ## the Project link
 https://odde90.github.io/Chuck-Norris/.
-https://quote-garden.herokuapp.com/quotes/
